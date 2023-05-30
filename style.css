@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td{
+    border: solid rgb(74, 74, 255) 1px;
+}
+
+th{
+    background-color: rgb(74, 74, 255);
+    color: aliceblue;
+}
+
+th, td{
+    padding: 6px;
+    text-align: center;
+}
+
+.acoes_col{
+    width: 10rem;
+    max-width: 10rem;
+    word-wrap: break-word;
+}
+
+.tarefa_col{
+    width: 20rem;
+}
+
+.add{
+    padding: 8px;
+    cursor: pointer;
+    background-color: rgb(74, 74, 255);
+    border: solid 1px rgb(74, 74, 255);
+    border-radius: 8px;
+    color: aliceblue;
+}
+.add:hover{
+    background-color: rgb(93, 93, 253);
+    border: solid 1px rgb(93, 93, 253)
+}
+
+.edit{
+    padding: 8px;
+    cursor: pointer;
+    background-color: rgb(74, 74, 255);
+    border: solid 1px rgb(74, 74, 255);
+    border-radius: 8px;
+    color: aliceblue;
+}
+.edit:hover{
+    background-color: rgb(93, 93, 253);
+    border: solid 1px rgb(93, 93, 253)
+}
+
+.task{
+    border: solid 1px rgb(74, 74, 255);
+    padding: 8px;
+    outline: none;
+    border-radius: 8px;
+}
+
+.god{
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(74, 74, 255);
+    padding-bottom: 20px;
+}
+
+.todo_table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+    border-radius: 40px;
+    gap: 20px;
+    padding: 20px;
+    min-height: 400px;
+    background-color: aliceblue;
+}
+
+h1{
+    color: rgb(74, 74, 255)
+}
+
+.botAcao{
+    background-color: rgb(74, 74, 255);
+    padding: 6px;
+    border: solid 1px rgb(74, 74, 255);
+    outline: none;
+    border-radius: 8px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.botAcao:hover{
+    background-color: rgb(93, 93, 253);
+    border: solid 1px rgb(93, 93, 253)
+}
